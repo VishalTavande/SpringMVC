@@ -10,6 +10,8 @@ public class Person {
 	private Long mobileNumber;
 	private Date dateOfBirth;
 	private List<String> languages;
+	private Address personAddress;
+	
 	
 	public String getPersonName() {
 		return personName;
@@ -53,5 +55,11 @@ public class Person {
 		this.languages = languages;
 	}
 	
+	public Address getPersonAddress() {
+		return personAddress;
+	}
+	public void setPersonAddress(Address personAddress) {
+		this.personAddress = personAddress;
+	}
 	
 }

@@ -36,6 +36,25 @@
 			<td><b>Language/s can speak:</b></td>
 			<td>${person.languages}</td>
 		</tr>
+		<tr>
+			<td><h3>Person Address</h3></td>
+		</tr>
+		<tr>
+			<td><b>Country:</b></td>
+			<td>${person.personAddress.country}</td>
+		</tr>
+		<tr>
+			<td><b>State:</b></td>
+			<td>${person.personAddress.state}</td>
+		</tr>
+		<tr>
+			<td><b>City:</b></td>
+			<td>${person.personAddress.city}</td>
+		</tr>
+		<tr>
+			<td><b>Pincode:</b></td>
+			<td>${person.personAddress.pincode}</td>
+		</tr>
 	</table>
 </body>
 </html>

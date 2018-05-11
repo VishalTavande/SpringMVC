@@ -60,6 +60,26 @@
 				</td>
 			</tr>
 			
+			<tr>
+				<td><h3>Person Address</h3></td>
+			</tr>
+			<tr>
+				<td>Country:</td>
+				<td><input type="text" name="personAddress.country"/>
+			</tr>
+			<tr>
+				<td>State:</td>
+				<td><input type="text" name="personAddress.state"/>
+			</tr>
+			<tr>
+				<td>City:</td>
+				<td><input type="text" name="personAddress.city"/>
+			</tr>
+			<tr>
+				<td>Pincode:</td>
+				<td><input type="text" name="personAddress.pincode"/>
+			</tr>
+			
 			<tr />
 			<tr>
 				<td><input type="submit" value="Submit to validate"/></td> 
